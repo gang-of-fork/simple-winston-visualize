@@ -1,0 +1,34 @@
+{
+  "name": "simple-winston-visualize",
+  "version": "0.0.1",
+  "description": "generate HTML page from winston logfile",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "winston",
+    "winston-logs",
+    "simple"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build-and-run": "tsc && node dist/index.js",
+    "docs": "npx typedoc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gang-of-Fork/simple-winston-visualize.git"
+  },
+  "author": "Gang of Fork",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Gang-of-Fork/simple-winston-visualize/issues"
+  },
+  "homepage": "https://github.com/Gang-of-Fork/simple-winston-visualize#readme",
+  "devDependencies": {
+    "typedoc": "^0.22.18",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
